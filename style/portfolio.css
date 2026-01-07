@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html {
-    width: 1600px;
+    /* width: 1600px; */
 }
 /* Basic Style */
 .font-open-sans {
@@ -25,6 +25,33 @@ html {
     cursor: pointer;
 }
 
+.my-education h2, .my-experience h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}   
+.education h3{
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.education h4{ 
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #757575;
+}
+.education p {
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.downCV-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -198,4 +225,24 @@ nav .menu a {
 .skill p {
     font-size: 16px;
     color: #757575;
+}
+.summery {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 230px;
+    max-width: 1140px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 113px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.experience, .education {
+    max-width: 511px;
+    height: 175px;
 }
