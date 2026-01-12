@@ -246,3 +246,87 @@ nav .menu a {
     max-width: 511px;
     height: 175px;
 }
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer-flex {
+}
+.footer-content {
+    max-width: 562px;
+    height: 178px;
+}
+.footer-content h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-content p {
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.footer-btn {
+    display: flex;
+    justify-content: center;
+}
+.footer-contents-container {
+    width: 1140px;
+    height: 520px;
+}
+.footer-icon {
+    display: flex;
+    gap: 24px;
+}
+
+.form-width {
+    max-width: 461px;
+}
+.block {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Style for both inputs and the text area */
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 461px; /* Forces them to stretch to the full width of their parent div */
+    padding: 18px 30px; /* Adds comfortable typing space inside */
+    border: none; /* Removes the default ugly border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* Clean background */
+    margin-bottom: 24px; /* Adds space between the boxes */
+    
+    /* Font styling */
+    font-size: 16px;
+    color: #474747;
+}
+
+/* Specific fix for the text area height */
+textarea {
+    height: 150px; /* Gives it a taller starting height */
+    resize: none; /* Optional: Stops the user from dragging the corner */
+}
